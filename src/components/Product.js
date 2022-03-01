@@ -8,6 +8,7 @@ export default class Product extends React.Component {
                 <div className="imageContainer"><img src={`/img/${this.props.img}`} alt={'zdjęcie produktu'} /></div>
                 <h4>{this.props.title}</h4>
                 <h5>{this.props.premiera}</h5>
+                <h5>Data wydania: {this.props.month}.{this.props.year}</h5>
             </div>
         );
     }

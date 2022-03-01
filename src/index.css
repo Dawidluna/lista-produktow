@@ -15,7 +15,7 @@ code {
 }
 
 
-.year, .month {
+.year, .year-selected, .month, .month-selected {
   width: 100px;
   border: 3px solid #9040c2;
   text-align: center;
@@ -25,10 +25,16 @@ code {
   margin: 5px;
   float: left;
   transition: 0.3s;
+  cursor: pointer;
 }
 
-.year {
+.year, .year-selected {
   font-size: 20px;
+}
+
+.year-selected, .month-selected {
+  color: white;
+  background-color: #b25ee6;
 }
 
 #firstMonth {
@@ -59,4 +65,9 @@ code {
 .product img {
   width: 240px;
   height: 240px;
+}
+
+#filtersBox {
+  width: 100%;
+  height: 170px;
 }
