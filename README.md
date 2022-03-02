@@ -3,4 +3,7 @@
 2. https://github.com/Dawidluna/lista-produktow/commit/c4ab4e99f659c5c66d01dbbd8c2861ad419bedc5  
 3. Potrzebne stany: rok oraz miesiąc według którego filtrowane będą produkty  
 4. Stany te będą się znajdować w komponencie ProductPage, ponieważ jest on wspólnym rodzicem komponentu Filters, z którego pobierane będą wartości tych stanów, oraz komponentu ProductList, do którego przekazywane będą te stany w celu filtrowanie produktów  
+https://github.com/Dawidluna/lista-produktow/commit/2a8858255f51ff1c6a1859a5ca2f106b98434f32
+
+
 5. https://github.com/Dawidluna/lista-produktow/commit/31724c157df7105481f162efc416e7b064a9afa2
